@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Response</title>
+    <style>
+        .users{
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid lightgray;
+            background-color: rgb(250, 250, 250);
+            border-radius: 10px;
+            text-align: left;
+        }
+        section{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            align-items: center;
+        }
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fetching API from :</h1>
+    <h3><a href="https://gorest.co.in/public/v1/users" target="_blank">https://gorest.co.in/public/v1/users</a></h3>
+
+    <section id="users"></section>
+    
+    <script src="/api.js"></script>
+</body>
+</html>
